@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font: "Poppins", "sans-serif";
+  box-sizing: border-box;
+}
+
+.space-1 {
+  height: 1rem;
+  width: 100%;
+}
+
+.space-2 {
+  height: 2rem;
+  width: 100%;
+}
+
+.space-3 {
+  height: 3rem;
+  width: 100%;
+}
+
+.space-4 {
+  height: 4rem;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 500 !important;
+
+  @media (max-width: 576px) {
+    font-size: 1.6rem !important;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 1.6rem !important;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.4rem !important;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.8rem !important;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2.3rem !important;
+  }
+}
+
+p {
+  font-size: 1.5rem !important;
+  line-height: 1.9rem;
+
+  @media (max-width: 576px) {
+    font-size: 1rem !important;
+    // font-weight: 100 !important;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 1rem !important;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.2rem !important;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.3rem !important;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem !important;
+  }
+}
+
+hr {
+  border: 0.5px solid darkgrey !important;
+}

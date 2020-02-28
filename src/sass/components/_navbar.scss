@@ -1,0 +1,147 @@
+.nav {
+  // position: sticky;
+  // border: 2px solid yellow;
+  background-color: $primary-high;
+  min-height: 10rem;
+  height: max-content;
+  width: 100%;
+  color: white;
+  // border: 1px solid red;
+
+  &__container {
+    // display: flex;
+    // flex-flow: row wrap;
+    // justify-content: space-between;
+    // align-items: center;
+    // border: 1px solid lime;
+    width: 100%;
+  }
+
+  &__row {
+    width: 100%;
+
+    @media (max-width: 576px) {
+      padding: 0rem 5rem;
+    }
+
+    @media (min-width: 576px) {
+      padding: 0rem 0rem;
+    }
+
+    @media (min-width: 768px) {
+      padding: 0rem 0rem;
+    }
+    @media (min-width: 992px) {
+      display: inline;
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1200px) {
+      display: inline;
+    }
+    // border: 1px solid yellow;
+  }
+
+  &__logo {
+    // border: 1px solid lime;
+    width: 50%;
+    text-transform: uppercase;
+  }
+
+  &__buttons {
+    width: 20%;
+    // border: 1px solid lime;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    // padding: 0rem 10rem;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    // align-items: center;
+  }
+
+  &__img-one {
+    @media (max-width: 576px) {
+      display: none;
+    }
+
+    @media (min-width: 576px) {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      display: inline;
+      font-size: 1rem;
+    }
+    @media (min-width: 992px) {
+      display: inline;
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1200px) {
+      display: inline;
+    }
+  }
+
+  &__img-two {
+    @media (min-width: 768px) {
+      display: inline;
+      font-size: 1rem;
+      padding-left: 5rem;
+    }
+    @media (min-width: 992px) {
+      display: inline;
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1200px) {
+      display: inline;
+    }
+  }
+
+  &__item-one {
+    @media (max-width: 576px) {
+      font-size: 0rem;
+    }
+
+    @media (min-width: 576px) {
+      font-size: 0rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1200px) {
+    }
+    cursor: pointer;
+  }
+
+  &__item-two {
+    @media (max-width: 576px) {
+      font-size: 0.8rem;
+    }
+
+    @media (min-width: 576px) {
+      font-size: 0.8rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1200px) {
+    }
+    cursor: pointer;
+  }
+
+  &__text {
+    margin-left: 1rem;
+  }
+}
