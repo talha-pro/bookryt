@@ -87,7 +87,7 @@ const IndexPage = () => (
                 <p>
                   For the average public the app is completely free to use. For
                   the business wanting to get on to the platform, the app is
-                  totally free to use for the first two months.
+                  totally free to use for the first two months
                 </p>
               </div>
             </div>
